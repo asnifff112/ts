@@ -1,40 +1,24 @@
 // inference type in the array 
-
-let skills = ["js","ts","react"]
+var skills = ["js", "ts", "react"];
 console.log(skills);
- 
-
-let no = [10,20,30]
+var no = [10, 20, 30];
 console.log(no);
-
 // annotions type in array
-
-let strr : string[] = ["asnif","nafila"]
+var strr = ["asnif", "nafila"];
 console.log(strr);
-
-let numm : number[] = [18,20,23]
+var numm = [18, 20, 23];
 console.log(numm);
-
 //------------------------------------------------------------------------------------------------------------------------------------------------------
-
 // inference type in the object
-
-let obj = {
-    name:"asnif",
-    numberr:10,
-    salary:10_000,
-}
-
+var obj = {
+    name: "asnif",
+    numberr: 10,
+    salary: 10000,
+};
 console.log(obj);
-
 // annotions type in obj
-
-let objj :{namee:string , agee:number}={
-    namee:"asnif",
-    agee:18
-}
-
+var objj = {
+    namee: "asnif",
+    agee: 18
+};
 console.log(objj);
-
-
-
