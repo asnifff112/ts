@@ -9,3 +9,4 @@ let userdetails : Detailss = {
     age :20,
     salary:20_000,
 }
+
