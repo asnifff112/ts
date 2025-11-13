@@ -22,7 +22,7 @@ let detailsss :Objj = {
 
 //intersection ............
 
-type Intern = {name:string};
+type Intern = {name:string };
 type employ = {id :number|string};
 type staff = Intern & employ;
 
